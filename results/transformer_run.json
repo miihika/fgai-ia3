@@ -1,0 +1,60 @@
+{
+  "model": "SmallTransformer",
+  "method": "trained from scratch",
+  "train_seconds": 337.5008020999958,
+  "inference_seconds": 2.9081359999836423,
+  "parameters": 2471328,
+  "test_count": 50,
+  "history": [
+    {
+      "epoch": 1,
+      "training_loss_sum": 405.6857624053955,
+      "validation_loss": 5.014510869979858
+    },
+    {
+      "epoch": 2,
+      "training_loss_sum": 340.6979703903198,
+      "validation_loss": 4.58757483959198
+    },
+    {
+      "epoch": 3,
+      "training_loss_sum": 317.39997005462646,
+      "validation_loss": 4.313587307929993
+    },
+    {
+      "epoch": 4,
+      "training_loss_sum": 298.4393033981323,
+      "validation_loss": 4.111115276813507
+    },
+    {
+      "epoch": 5,
+      "training_loss_sum": 281.697208404541,
+      "validation_loss": 3.959398567676544
+    },
+    {
+      "epoch": 6,
+      "training_loss_sum": 267.3954555988312,
+      "validation_loss": 3.866424858570099
+    },
+    {
+      "epoch": 7,
+      "training_loss_sum": 253.93132209777832,
+      "validation_loss": 3.7841586470603943
+    },
+    {
+      "epoch": 8,
+      "training_loss_sum": 241.49696326255798,
+      "validation_loss": 3.7354224920272827
+    },
+    {
+      "epoch": 9,
+      "training_loss_sum": 229.5700237751007,
+      "validation_loss": 3.700949251651764
+    },
+    {
+      "epoch": 10,
+      "training_loss_sum": 218.55981421470642,
+      "validation_loss": 3.7284015417099
+    }
+  ]
+}

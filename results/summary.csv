@@ -1,0 +1,5 @@
+model,status,checkpoint,method,bleu,chrf,train_seconds,inference_seconds,inference_seconds_per_example,parameters,test_count,timed_test_count
+transformer,complete,SmallTransformer,trained from scratch,0.32,9.97,337.5008020999958,2.9081359999836423,0.058,2471328,50,50
+mt5,complete,google/mt5-small,full fine-tuning for 200 gradient steps,0.07,4.37,398.9888387999963,183.8110832000093,1.838,300176768,50,100
+llama,complete,TinyLlama/TinyLlama-1.1B-Chat-v1.0,zero-shot prompting; no fine-tuning,9.9,34.4,,600.6076565000112,12.012,1100048384,50,50
+gemma,complete,google/gemma-3-270m-it,zero-shot prompting; no fine-tuning,4.44,22.92,,109.42340130000957,2.188,268098176,50,50

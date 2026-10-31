@@ -1,0 +1,10 @@
+{
+  "source": "https://huggingface.co/datasets/Helsinki-NLP/opus_books",
+  "config": "en-fr",
+  "seed": 42,
+  "filter": "3-30 English words; 3-35 French words; exact case-insensitive pair deduplication",
+  "available_after_filter": 95357,
+  "train": 2000,
+  "validation": 100,
+  "test": 50
+}

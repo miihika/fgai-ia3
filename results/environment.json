@@ -1,0 +1,10 @@
+{
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.14.3",
+  "pytorch": "2.11.0+cpu",
+  "transformers": "5.22.1",
+  "datasets": "5.1.0",
+  "sacrebleu": "2.6.0",
+  "cuda_available": false,
+  "ram_gb": 16
+}

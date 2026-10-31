@@ -1,0 +1,9 @@
+{
+  "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "method": "zero-shot prompting; no fine-tuning",
+  "train_seconds": null,
+  "inference_seconds": 600.6076565000112,
+  "parameters": 1100048384,
+  "test_count": 50,
+  "losses": null
+}

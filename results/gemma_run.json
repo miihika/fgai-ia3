@@ -1,0 +1,9 @@
+{
+  "model": "google/gemma-3-270m-it",
+  "method": "zero-shot prompting; no fine-tuning",
+  "train_seconds": null,
+  "inference_seconds": 109.42340130000957,
+  "parameters": 268098176,
+  "test_count": 50,
+  "losses": null
+}

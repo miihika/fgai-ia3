@@ -1,0 +1,7 @@
+torch>=2.4
+transformers>=4.45,<6
+datasets>=3,<6
+sacrebleu>=2.4
+sentencepiece>=0.2
+accelerate>=1
+matplotlib>=3.8

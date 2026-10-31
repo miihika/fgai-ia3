@@ -1,0 +1,58 @@
+[
+  {
+    "model": "transformer",
+    "status": "complete",
+    "checkpoint": "SmallTransformer",
+    "method": "trained from scratch",
+    "bleu": 0.32,
+    "chrf": 9.97,
+    "train_seconds": 337.5008020999958,
+    "inference_seconds": 2.9081359999836423,
+    "inference_seconds_per_example": 0.058,
+    "parameters": 2471328,
+    "test_count": 50,
+    "timed_test_count": 50
+  },
+  {
+    "model": "mt5",
+    "status": "complete",
+    "checkpoint": "google/mt5-small",
+    "method": "full fine-tuning for 200 gradient steps",
+    "bleu": 0.07,
+    "chrf": 4.37,
+    "train_seconds": 398.9888387999963,
+    "inference_seconds": 183.8110832000093,
+    "inference_seconds_per_example": 1.838,
+    "parameters": 300176768,
+    "test_count": 50,
+    "timed_test_count": 100
+  },
+  {
+    "model": "llama",
+    "status": "complete",
+    "checkpoint": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "method": "zero-shot prompting; no fine-tuning",
+    "bleu": 9.9,
+    "chrf": 34.4,
+    "train_seconds": null,
+    "inference_seconds": 600.6076565000112,
+    "inference_seconds_per_example": 12.012,
+    "parameters": 1100048384,
+    "test_count": 50,
+    "timed_test_count": 50
+  },
+  {
+    "model": "gemma",
+    "status": "complete",
+    "checkpoint": "google/gemma-3-270m-it",
+    "method": "zero-shot prompting; no fine-tuning",
+    "bleu": 4.44,
+    "chrf": 22.92,
+    "train_seconds": null,
+    "inference_seconds": 109.42340130000957,
+    "inference_seconds_per_example": 2.188,
+    "parameters": 268098176,
+    "test_count": 50,
+    "timed_test_count": 50
+  }
+]
